@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+/*
+colors: 
+teal blue: #37c90
+dark teal blue: #255957
+beige: #eeebd3
+dark beige: #a98743
+yellow: #f7c548
+*/
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEEBD3;
+}
+
+form {
+  display: flex;
+  position: relative;
+  height: 40vh;
+} 
+
+form::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom right, #255957, #F7C548);
+  border-radius: 10px;
+}
+
+form .form-inner {
+  padding: 40px 10px 0px 10px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+  z-index: 2;
+}
+
+.login-title {
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.error-msg {
+  color:#0f0d74;
+  font-size: 20px;
+}
+
+.login-form {
+  font-weight: 900;
+}
+
+.login-form label {
+  padding-right: 20px;
+}
+
+.login-form input {
+  width: 60%;
+  height: 20px;
+  margin: 10px 0px;
+  padding: 2px;
+  border: none;
+  border-radius: 4px;
+  background: #e8eeff;
+}
+
+.login-btn {
+  margin: 10px;
+  width: 80px;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #0f0d74;
+}
+
+/* User area */
+
+.welcome-container {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+.navbar-container {
+  display: flex;
+  height: 40px;
+  background: #255957;
+  color: #fff;
+  font-weight: 500;
+}

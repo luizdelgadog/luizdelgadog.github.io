@@ -1,1 +1,0 @@
-# luizdelgadog.github.io

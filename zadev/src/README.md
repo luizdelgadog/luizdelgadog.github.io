@@ -1,3 +1,0 @@
-# luizdelgadog.github.io
-
-wazzzzzzzzzzap
